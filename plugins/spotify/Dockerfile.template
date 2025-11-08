@@ -1,4 +1,4 @@
-FROM giof71/librespot
+FROM giof71/librespot:stable
 
 ENV PULSE_SERVER=tcp:localhost:4317
 
