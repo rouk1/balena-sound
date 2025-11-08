@@ -1,5 +1,4 @@
-FROM giof71/librespot:stable
-
+FROM giof71/librespot:feature-i152b1-bookworm
 ENV PULSE_SERVER=tcp:localhost:4317
 
 COPY start.sh /usr/src/
